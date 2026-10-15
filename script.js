@@ -4,8 +4,8 @@
 // 3. Paste the suggestions form URL between the quotes after suggestions:.
 // 4. Save this file and upload the complete outputs folder to your website host.
 const FORM_LINKS = {
-  registration: "", // Example: "https://docs.google.com/forms/d/e/FORM_ID/viewform"
-  suggestions: "" // Example: "https://docs.google.com/forms/d/e/FORM_ID/viewform"
+  registration: "https://docs.google.com/forms/d/e/1FAIpQLSdL7UsXW8APgwDEUnOe1_ydG_uJMkc4WBIdyMTZULlCRD_qnA/viewform?usp=sharing&ouid=107563621352351800816", // Example: "https://docs.google.com/forms/d/e/FORM_ID/viewform"
+  suggestions: "https://docs.google.com/forms/d/e/1FAIpQLSdL7UsXW8APgwDEUnOe1_ydG_uJMkc4WBIdyMTZULlCRD_qnA/viewform?usp=sharing&ouid=107563621352351800816" // Example: "https://docs.google.com/forms/d/e/FORM_ID/viewform"
 };
 
 for (const [key, selector] of [["registration", "[data-register]"], ["suggestions", "[data-suggestions]"]]) {
